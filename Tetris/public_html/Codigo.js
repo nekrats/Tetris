@@ -26,7 +26,7 @@ function CrearPiezas()
                 return piezas[numeroAleatori];    
  };
  
-    pieza.prototype.pintar = function()
+   /* pieza.prototype.pintar = function()
          { var resultado = "<table border='1'>";
            for (var i = 0; i < this.forma.length;i++)
             { resultado = resultado + "<tr>";
@@ -46,7 +46,7 @@ function CrearPiezas()
          var p = new pieza(pa[0],pa[1]);
          //document.write(p.pintar());
          document.getElementById("original").innerHTML = p.pintar();
-          
+          */
   var tablero= new Array();
      tablero = [
      [1,0,0,0,0,0,0,0,0,0,0,1],
